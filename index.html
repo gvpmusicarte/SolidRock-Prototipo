@@ -185,28 +185,33 @@
             <li>
               <a href="forms.html">
                 <i class="fa fa-align-justify"></i>
-                Forms
+                Eventos
               </a>
             </li>
             <li class=''>
-              <a href='#'><i class="fa fa-bar-chart-o"></i>Graphs</a>
+              <a href='#'><i class="fa fa-bar-chart-o"></i>Publicar</a>
+<!--
               <ul>
                  <li><a href='flot.html'>Flot Graphs</a></li>
                  <li><a href='graphs.html'>Google Graph</a></li>
                  <li><a href='vector-maps.html'>Vector Maps</a></li>
               </ul>
+-->
             </li>
                         <li class=''>
-              <a href='#'><i class="fa fa-flask"></i>UI Elements</a>
+              <a href='#'><i class="fa fa-flask"></i>Registro</a>
+<!--
               <ul>
                  <li><a href='ui-elements.html'>UI Elements</a></li>
                  <li><a href='panels.html'>Panels</a></li>
                  <li><a href='notifications.html'>Notifications</a></li>
                  <li><a href='icons.html'>Icons</a></li>
               </ul>
+-->
             </li>
             <li class=''>
-              <a href='#'><i class="fa fa-dashboard"></i>Extras</a>
+              <a href='#'><i class="fa fa-dashboard"></i>Contacto</a>
+<!--
               <ul>
                 <li><a href='#'>Blog</a>
                   <ul>
@@ -229,31 +234,34 @@
                 <li><a href='404.html'>404</a></li>
                 <li><a href='500.html'>500</a></li>
               </ul>
+-->
             </li>
             <li class=''>
-              <a href='#'><i class="fa fa-table"></i>Tables</a>
+              <a href='#'><i class="fa fa-table"></i>Perfil</a>
+<!--
               <ul>
                  <li><a href='tables.html'>Tables</a></li>
                  <li><a href='pricing.html'>Pricing Plan</a></li>
                  <li><a href='timeline.html'>Timeline</a></li>
               </ul>
+-->
             </li>
             <li>
-              <a href="media.html">
+              <a href='#'>
                 <i class="fa fa-picture-o"></i>
-                Media
+               
               </a>
             </li>
-            <li class="hidden-sm">
+            <li class='#'>
               <a href="calendar.html">
                 <i class="fa fa-calendar"></i>
-                Calendar
+               
               </a>
             </li>
-            <li class="hidden-sm">
+            <li class='#'>
               <a href="typography.html">
                 <i class="fa fa-font"></i>
-                Typography
+              
               </a>
             </li>
           </ul>
@@ -263,18 +271,49 @@
         <!-- Sub Nav End -->
         <div class="sub-nav hidden-sm hidden-xs">
           <ul>
-            <li><a href="" class="heading">Dashboard</a></li>
-            <li class="hidden-sm hidden-xs">
-              <a href="index2.html" class="selected">Dashboard V1</a>
+            <li>
+                <select>
+                  <option  id="sltCategoría" value="Categoria" selected>Categoria</option>  
+                  <option id="sltAcademico" value="Academico">Academico</option>
+                  <option id="sltAmbientalista" value="Ambientalista">Ambientalista</option>
+                  <option id="sltArte" value="Arte">Arte</option>
+                  <option id="sltCiencia" value="Ciencia">Ciencia</option>
+                  <option id="sltDeportes" value="Deportes">Deportes</option>
+                  <option id="sltGastronomia" value="Gastronomia">Gastronomia</option>
+                  <option id="sltHumanitario" value="Humanitario">Humanitario</option>
+                  <option id="sltMusica" value="Musica">Musica</option>
+                  <option id="sltPolitica" value="Politica">Politica</option>
+                  <option id="sltReligion" value="Religion">Religion o credo</option>
+                  <option id="sltSalud" value="Salud">Salud</option>
+                  <option id="sltSocial" value="Social">Social</option>
+                  <option id="sltTecnologia" value="Tecnologia">Tecnologia</option>                  
+                  <option id="sltTurismo" value="Turismo">Turismo</option>
+                  <option id="sltVideojuegos" value="Videojuegos">Videojuegos</option>         
+                </select>
             </li>
-            <li class="hidden-sm hidden-xs">
-              <a href="index.html">Dashboard V2</a>
-            </li>
-          </ul>
-          <div class="custom-search hidden-sm hidden-xs">
-            <input type="text" class="search-query" placeholder="Search here ...">
-            <i class="fa fa-search"></i>
-          </div>
+            <li class="hidden-sm hidden-xs
+              Subcategoria: <input type="text" id="txtSubCategoria"/>
+              </li>
+              <li>Fecha de inicio: 
+                    <div class="input-group input-append date" id="dateRangePicker">
+                        <input type="text" class="form-control" name="date" />
+                        <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                    </div>
+              </li>
+              <li>Fecha de fin: 
+                    <div class="input-group input-append date" id="dateRangePicker">
+                        <input type="text" class="form-control" name="date" />
+                        <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                    </div>
+              </li>
+              <li>Precio: 
+              <input type="text" name="txtPrecio">
+              </li>
+              </ul>
+              <div class="custom-search hidden-sm hidden-xs">
+              <input type="text" class="search-query" placeholder="Buscar ...">
+              <i class="fa fa-search"></i>
+              </div>
         </div>
         <!-- Sub Nav End -->
 
